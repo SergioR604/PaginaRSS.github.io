@@ -1,0 +1,32 @@
+table {
+    border:solid;
+    border-color: black;
+    margin:0px;
+    border-spacing: 0px;
+}
+td {
+    padding: 50px;
+    border:solid;
+    border-color: black;
+    margin:-40px;
+    border-spacing: 0px;
+    background-color: blue;
+}
+
+
+td:first-child {
+    color:white;
+    background-color: red;
+}
+
+#primer {
+    background-color: white;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+tr:nth-child(3) td{
+    padding: 15px;
+}
