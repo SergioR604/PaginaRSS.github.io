@@ -1,32 +1,94 @@
-table {
-    border:solid;
-    border-color: black;
-    margin:0px;
-    border-spacing: 0px;
-}
-td {
-    padding: 50px;
-    border:solid;
-    border-color: black;
-    margin:-40px;
-    border-spacing: 0px;
-    background-color: blue;
+/* Estilos generales */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-
-td:first-child {
-    color:white;
-    background-color: red;
+/* Encabezados */
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #f0f0f0;
 }
 
-#primer {
-    background-color: white;
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    padding: 20px 0;
 }
 
-#amarillo {
-    background-color: yellow;
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
 }
 
-tr:nth-child(3) td{
-    padding: 15px;
+/* Estilos de las secciones */
+section {
+    background: #2a2a2a;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* Enlaces y botones */
+a {
+    color: #ff9800;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffcc80;
+}
+
+/* Listas estilizadas */
+ul, ol {
+    padding-left: 20px;
+}
+
+ul li, ol li {
+    background: linear-gradient(90deg, #ff9800, #ffcc80);
+    color: #000;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos del video y audio */
+iframe, audio {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Animaciones de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+section {
+    animation: fadeIn 1s ease-in-out;
 }
