@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Healthy Recipes Blog</title>
+    <link>https://www.myhealthyrecipes.com</link>
+    <description>Últimas recetas saludables y consejos de nutrición.</description>
+    <language>es-es</language>
+    <copyright>2024 Healthy Recipes Blog</copyright>
+    <lastBuildDate>Wed, 15 May 2024 12:00:00 GMT</lastBuildDate>
+
+    <!-- Ítems -->
+    <item>
+      <title>5 Batidos Rápidos para el Desayuno</title>
+      <link>https://www.myhealthyrecipes.com/desayuno/batidos</link>
+      <description>Comienza tu día con estas recetas de batidos deliciosos y nutritivos.</description>
+      <guid>https://www.myhealthyrecipes.com/desayuno/batidos</guid>
+      <pubDate>Mon, 13 May 2024 08:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Buddha Bowls Saludables para el Almuerzo</title>
+      <link>https://www.myhealthyrecipes.com/almuerzo/buddha-bowls</link>
+      <description>Aprende a preparar bowls equilibrados con ingredientes frescos.</description>
+      <guid>https://www.myhealthyrecipes.com/almuerzo/buddha-bowls</guid>
+      <pubDate>Tue, 14 May 2024 09:30:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Salmón a la Parrilla con Quinoa para la Cena</title>
+      <link>https://www.myhealthyrecipes.com/cena/salmon-quinoa</link>
+      <description>Una receta rica en omega-3 y proteínas para una cena perfecta.</description>
+      <guid>https://www.myhealthyrecipes.com/cena/salmon-quinoa</guid>
+      <pubDate>Wed, 15 May 2024 10:15:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Top 10 Superalimentos para una Nutrición Óptima</title>
+      <link>https://www.myhealthyrecipes.com/nutricion/superalimentos</link>
+      <description>Descubre los superalimentos que mejorarán tu dieta y salud.</description>
+      <guid>https://www.myhealthyrecipes.com/nutricion/superalimentos</guid>
+      <pubDate>Wed, 15 May 2024 11:45:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
